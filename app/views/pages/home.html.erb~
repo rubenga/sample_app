@@ -5,5 +5,3 @@
     </p>
 
 <%= link_to "S'inscrire&nbsp;!", '#', :class => "signup_button round" %>
-
-<a href="#" class="signup_button round">S'inscrire !</a>
