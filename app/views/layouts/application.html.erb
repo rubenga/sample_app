@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Simple App du Tutoriel Ruby on Rails | <%= @titre %></title>
+    <title><%= titre %></title> <!-- défini dans application_helper-->
     <%= csrf_meta_tag %>
+    <%= render 'layouts/stylesheets' %> <!-- partials-->
   </head>
   <body>
-    <%= yield %>
+    <div class="container">
+      <%= render 'layouts/header' %> <!-- partials-->
+      <section class="round">
+        <%= yield %>
+      </section>
+      <%= render 'layouts/footer' %> <!-- partials-->
+    </div>
   </body>
 </html>

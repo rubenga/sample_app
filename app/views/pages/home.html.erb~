@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Simple App du Tutoriel Ruby on Rails | <%= @titre %></title>
-  </head>
-  <body>
-    <h1>Simple App</h1>
+    <h1>Sample App</h1>
     <p>
       Ceci est la page d'accueil de l'Application Exemple du
       <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>.
     </p>
-  </body>
-</html>
 
+<%= link_to "S'inscrire&nbsp;!", '#', :class => "signup_button round" %>
+
+<a href="#" class="signup_button round">S'inscrire !</a>
