@@ -1,0 +1,13 @@
+/* ------------------------------------- */
+/* ---------------- WRAP --------------- */
+/* ------------------------------------- */
+
+#stage #page-wrapper.theme {
+    padding-top: 20px;
+    background: url(assets/stage_background.jpg) top center no-repeat #f86f05;
+}
+
+#theme-header {
+    margin: 0;
+}
+

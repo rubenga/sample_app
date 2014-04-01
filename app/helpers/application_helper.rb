@@ -10,4 +10,10 @@ module ApplicationHelper
       "#{base_titre} | #{@titre}"
     end
   end
+
+#exo 5.1
+  def logo
+    image_tag("logo.png", :alt => "Application Example", :class => "round")
+  end
+
 end

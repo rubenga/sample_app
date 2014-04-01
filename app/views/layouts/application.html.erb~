@@ -3,15 +3,16 @@
   <head>
     <title><%= titre %></title> <!-- défini dans application_helper-->
     <%= csrf_meta_tag %>
-    <%= render 'layouts/stylesheets' %>
+    <%= render 'layouts/stylesheets' %> <!-- partials-->
   </head>
   <body>
     <div class="container">
-      <%= render 'layouts/header' %>
+      <%= render 'layouts/header' %> <!-- partials-->
       <section class="round">
         <%= yield %>
       </section>
-      <%= render 'layouts/footer' %>
+      <%= render 'layouts/footer' %> <!-- partials-->
+      <%= debug(params) if Rails.env.development? %>
     </div>
   </body>
 </html>
